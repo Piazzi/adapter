@@ -35,7 +35,10 @@ The key idea in this pattern is to work through a separate adapter that adapts t
 Clients don't know whether they work with a target class directly or through an adapter with a class that does not have the target interface.
 
 
-![image](https://user-images.githubusercontent.com/40416044/145884886-c6a8c4dc-771e-4497-87c6-7e55729d856a.png)
+![image](https://user-images.githubusercontent.com/40416044/145885276-3f80b189-27be-4fb5-ae90-8b77cae0491d.png)
+
+This implementation uses inheritance: the adapter inherits interfaces from both objects at the same time. Note that this approach can only be implemented in programming languages that support multiple inheritance, such as C++.
+
 
 
 Source: <a href="https://en.wikipedia.org/wiki/Abstract_factory_pattern"> Wikipedia </a> | <a href="https://refactoring.guru/design-patterns/prototype"> Refactoring Guru </a>
