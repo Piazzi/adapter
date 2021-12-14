@@ -4,7 +4,7 @@
 
 # Code
 
-Simple project representing the adapter design pattern. 
+Simple project representing the adapter design pattern. For this one i created a dictionary which receives data from html or xml files, they will be converted if needed
 <br></br>
 
 
